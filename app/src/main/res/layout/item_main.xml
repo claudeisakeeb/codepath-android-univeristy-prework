@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent" >-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:background="@color/teal_200"
+    android:padding="10dp"
+    android:layout_marginBottom="5dp">
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="@color/purple_700"
+        android:textSize="20dp"
+        android:text="" />
+    <Button
+        android:id="@+id/completeButton"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark as complete"
+        android:layout_centerVertical="true" />
+    <TextView
+        android:id="@+id/item_complete_date"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="shit"
+        android:visibility="invisible"
+        android:layout_centerVertical="true"
+        android:textColor="@color/purple_700"/>
+</RelativeLayout>
+<!--</LinearLayout>-->
