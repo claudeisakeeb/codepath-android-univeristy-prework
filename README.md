@@ -36,7 +36,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The biggest challenge was understanding how the RecyclerView worked with the ItemsAdapter; once that was figured out, implementing additional features got a lot easier. Another challenge was figuring out how to store Item objects in text files (to preserve the todo list across sessions), but I was able to accomplish that with using different text files to store different item attributes (name, priority, etc.). 
 
 ## License
 
